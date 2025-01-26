@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            width: 100%;
+            height: 150px;
+            background-image: Linear-gradient(red,yellow, green);
+        }
+        .div2{
+            width: 100%;
+            height: 150px;
+            background-image: Linear-gradient(red,yellow, green,blue,violet);
+        }
+        .div3{
+            width: 100%;
+            height: 150px;
+            background-image: Linear-gradient(red 30%,green  80%,blue 95%);
+        }
+        .div4{
+            width: 100%;
+            height: 50px;
+            background-image: Linear-gradient(to right, darkred, red, orange, yellow, green,darkgreen, blue, darkblue, violet);
+            text-align: center;
+        }
+        p{
+            font-family:'Times New Roman', Times, serif;
+            font-size: large;
+            font-weight: 100;
+            color: silver;
+        }
+        .div5{
+            width: 200px;
+            height: 200px;
+            background-image: radial-gradient(darkred, red, orange, yellow, green,darkgreen, blue, darkblue, violet);
+        }
+    </style>
+</head>
+<body>
+    <h1>Linear gradient multiple colour stops</h1>
+    <h3><strong>Note:</strong>Color stops are spaced evenly when no percents are specified</h3>
+    <div>
+        <h2>3 Color Stops(evenly spaced):</h2>
+        <div class="div1"></div>
+    </div>
+
+    <div>
+        <h2>7 Color Stops(evenly spaced):</h2>
+        <div class="div2"></div>
+    </div>
+
+    <div>
+        <h2>3 Color Stops(not evenly spaced):</h2>
+        <div class="div3"></div>
+        <div class="div4"><p style="padding-top: 10px;">Rainbow Background</p></div>
+    </div>
+
+    <div>
+        <h2>Radial Gradient - Evenly Spaced Color Stops</h2>
+        <div class="div5"></div>
+    </div>
+</body>
+</html>

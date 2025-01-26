@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #h img{
+            width: 200px;
+        }
+        #d1{
+            width: 80%;
+            height: 450px;
+            display: flex;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border: 2px solid rgb(222, 219, 219);
+            border-radius: 10px;
+            box-shadow: 20px rgb(205, 11, 11);
+        }
+        #d2 img {
+            width: 50px;
+            
+        }
+        #d2 #log{
+            text-align: center;
+            size: 100px;
+            padding: 25px;
+            margin: 10px;
+            margin-bottom: 0px;
+        }
+        form{
+            padding: 20px;
+            margin: 90px;
+            border: 2px solid rgb(222, 219, 219);
+            border-radius: 10px;
+            width: 250px;
+            margin-top: 30px;
+        }
+        #img1{
+            width: 550px;
+        }
+        #foot p{
+            text-align: center;
+        }
+        #sub{
+            border-radius: 5px;
+        }
+        #us{
+            display: flex;
+            border-bottom: 2px solid red;
+            padding: 5px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+        #ps{
+            display: flex;
+            border-bottom: 2px solid red;
+            padding: 5px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        /* input{
+            outline: none;
+        } */
+        #ss{
+            display: flex;
+        }
+        input{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <header id="h">
+            <div><img src="logo.jpg"></div>
+        </header>
+        <main>
+            <div id="d1">
+                <div><img src="office.jpg" id="img1"></div>
+                
+                <div id="d2">
+                    <h2 id="log">Login</h2>
+                    <div id="formdiv">
+                        <form>
+                            <label>Username:</label> <br>
+                            <div id="us"> 
+                                <img src="user.jpg">
+                                <input type="text" placeholder="Username"> <br>
+                            </div>
+                            
+                            
+                            <label>Password:</label> <br>
+                            <div id="ps">
+                                <img src="password.jpg">
+                                <input type="password" placeholder="Password"> <br>
+                            </div>
+
+                            <div id="ss">
+                                <button type="submit" id="sub" style="height:30px; margin-top:18px;">Login</button>
+                                <a href="" style="text-decoration: none; padding-top:22px; padding-left:8px; ">Forget Password?</a>
+                                <a href="https://www.googgle.com" style=" padding-top:7px; padding-left:8px; "><img src="google.jpg"></a>
+                                <a href="https://www.facebook.com" style=" padding-top:7px; padding-left:8px; "><img src="facebook.png"></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="foot">
+                <p>Naresh i Technologies : Software Training Institute</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
